@@ -1,0 +1,28 @@
+name: workout_agent
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  # Web Scraping Libraries
+  - requests==2.31.0
+  - beautifulsoup4==4.12.2
+  - lxml==4.9.3
+  - urllib3==2.0.4
+
+  # PDF Processing Libraries
+  - PyPDF2==3.0.1
+  - pdfminer.six==20221105
+  - textract==1.6.5
+
+  # Data Handling and Processing Libraries
+  - pandas==2.1.1
+  - numpy==1.24.3
+
+  # Natural Language Processing Libraries
+  - transformers==4.33.0
+  - sentence-transformers==2.2.2
+
+  # Miscellaneous Utilities
+  - tqdm==4.66.1
+  - rich==13.5.2
